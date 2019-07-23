@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <img src="img/1.jpg" width="40%" height="40%" name="p1" id="1">
+    <a href="/transfer/DownLoadServlet?filename=1.jpg">下载图片</a>
+    <img src="img/2.jpg" width="40%" height="40%" name="p2" id="2">
+    <a href="/transfer/DownLoadServlet?filename=2.jpg">下载图片</a>
+    <img src="img/3.jpg" width="40%" height="40%" name="p3" id="3">
+    <a href="/transfer/DownLoadServlet?filename=3.jpg">下载图片</a>
+    <img src="img/4.jpg" width="40%" height="40%" name="p4" id="4">
+    <a href="/transfer/DownLoadServlet?filename=4.jpg">下载图片</a>
+    <img src="img/5.jpg" width="40%" height="40%" name="p5" id="5">
+    <a href="/transfer/DownLoadServlet?filename=5.jpg">下载图片</a><br>
+    <input type="button" id="button" value="上传" >
+    <script>
+      var button=document.getElementById("button");
+      button.onclick=function () {
+          location.href="upload.html"
+      }
+    </script>
+</body>
+</html>
